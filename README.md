@@ -7,8 +7,13 @@ For Convenience, scripts are provided to Start a Gemfire Cluster. Navigate to **
 
 Start the locator by running **startLocator.sh** and Start the cache servers by running **startServer.sh**
 
+### STEP 2: Create the Gemfire Region Account
 
-### STEP 2: Run the Demo
+```
+create region --name=Account --type=PARTITION_REDUNDANT --entry-idle-time-expiration=20 --entry-idle-time-expiration-action=INVALIDATE --enable-statistics=true
+```
+
+### STEP 3: Run the Demo
 
 ```
 mvn spring-boot:run

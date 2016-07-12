@@ -7,7 +7,7 @@
         <pdx-serializer>
             <class-name>com.gemstone.gemfire.pdx.ReflectionBasedAutoSerializer</class-name>
             <parameter name="classes">
-                <string>.*,io.pivotal.wealthfrontier.domain.*</string>
+                <string>.*</string>
             </parameter>
         </pdx-serializer>
     </pdx>
