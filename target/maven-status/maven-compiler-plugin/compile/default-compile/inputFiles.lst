@@ -1,6 +1,0 @@
-/Users/nchandrappa/Documents/Gemfire_Preso/Gemfire_Workshop/workspace/SDG-Caching-Example/src/main/java/io/pivotal/gemfire/sdg/domain/Account.java
-/Users/nchandrappa/Documents/Gemfire_Preso/Gemfire_Workshop/workspace/SDG-Caching-Example/src/main/java/io/pivotal/gemfire/SdgCachingExampleApplication.java
-/Users/nchandrappa/Documents/Gemfire_Preso/Gemfire_Workshop/workspace/SDG-Caching-Example/src/main/java/io/pivotal/gemfire/client/dao/AccountDao.java
-/Users/nchandrappa/Documents/Gemfire_Preso/Gemfire_Workshop/workspace/SDG-Caching-Example/src/main/java/io/pivotal/gemfire/client/service/provider/CachingAccountService.java
-/Users/nchandrappa/Documents/Gemfire_Preso/Gemfire_Workshop/workspace/SDG-Caching-Example/src/main/java/io/pivotal/gemfire/client/service/AccountService.java
-/Users/nchandrappa/Documents/Gemfire_Preso/Gemfire_Workshop/workspace/SDG-Caching-Example/src/main/java/io/pivotal/gemfire/client/dao/InMemoryAccountDao.java
