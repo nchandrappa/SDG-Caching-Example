@@ -42,7 +42,7 @@ public class CachingAccountService implements AccountService {
     return accountDao;
   }
 
-  @Cacheable(value = "Account")
+  @Cacheable(value = "Account", keyGenerator = "customKeyGenerator")
   public Account getAccount(final int accountId) {
     log.info(String.format("%1$s.get(%2$s): getting Account with ID (%2$s) from external data source!",
       getClass().getSimpleName(), accountId));
